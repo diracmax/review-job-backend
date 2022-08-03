@@ -21,3 +21,8 @@
 go.work
 
 .idea
+
+scripts
+
+githook
+.envrc

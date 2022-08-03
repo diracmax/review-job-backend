@@ -1,3 +1,4 @@
+//go:generate mockgen -source=$GOFILE -package=mock_$GOPACKAGE -destination=../../mock/usecase/$GOFILE
 package usecase
 
 import "github.com/diracmax/review-job-backend/internal/usecase/repository"
